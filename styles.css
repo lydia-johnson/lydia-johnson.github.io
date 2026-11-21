@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.title {
+  min-height: 100vh;
+  background: linear-gradient(238deg, #347DB6 19.39%, #4F8BB2 80.61%);
+}
