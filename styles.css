@@ -7,10 +7,12 @@
 .title {
   min-height: 100vh;
   background: linear-gradient(238deg, #347DB6 19.39%, #4F8BB2 80.61%);
+  position: relative;
 }
 
-/* consolidate common rules*/
-.h1 {
+/* consolidate common rules, no dot because it is not a tag*/
+/*WORDS*/
+h1 {
   color: #EFF1FA;
   text-shadow: -3px 4px 0 #747474;
 }
@@ -19,6 +21,10 @@
   font-family:"Rum Raisin", sans-serif;
   font-size: 250px;
   letter-spacing: 22.5px;
+  position: absolute;
+  bottom: 115px;
+  line-height: 1;
+  left: 165px;
 }
 
 .first-name {
@@ -37,4 +43,25 @@
 .j-title {
   font-size: 300px;
   letter-spacing: 27px;
+}
+
+/*BUTTON*/
+.enter-button {
+  position: absolute;
+  top: 338px;
+  left: 570px;
+}
+
+.enter-here-words {
+  width: 216px;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.7;
+  filter: drop-shadow(-2.4px 3.2px 0 rgba(116, 116, 116, 0.90));
+}
+
+.enter-here-arrows {
+  width: 337px;
 }
