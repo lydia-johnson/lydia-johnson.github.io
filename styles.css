@@ -31,18 +31,27 @@ h1 {
   font-family: Cuprum, sans-serif;
   font-size: 40px;
   font-style: italic;
+  top: 145px;
+  left: 359px;
+  position: absolute;
 }
 
 .last-name {
   font-family: Cuprum, sans-serif;
   font-style: italic;
   font-size: 200px;
+  left: 554px;
+  top: 93px;
+  position: absolute;
 }
 
 /*Just for letter J*/
 .j-title {
   font-size: 300px;
   letter-spacing: 27px;
+  top: 53px;
+  left: 439px;
+  position: absolute;
 }
 
 /*BUTTON*/
