@@ -5,7 +5,7 @@
 }
 
 .title {
-  min-height: 100vh;
+  aspect-ratio: 1440/1024;
   background: linear-gradient(238deg, #347DB6 19.39%, #4F8BB2 80.61%);
   position: relative;
 }
@@ -19,58 +19,64 @@ h1 {
 
 .portfolio {
   font-family:"Rum Raisin", sans-serif;
-  font-size: 250px;
-  letter-spacing: 22.5px;
+  font-size: 17.4vw;
+  letter-spacing: .09em;
   position: absolute;
-  bottom: 115px;
+  bottom: 11.2%;
   line-height: 1;
-  left: 165px;
+  left: 11.5%;
 }
 
 .first-name {
   font-family: Cuprum, sans-serif;
-  font-size: 40px;
+  font-size: 2.7vw;
   font-style: italic;
-  top: 145px;
-  left: 359px;
+  top: 14.2%;
+  left: 24.9%;
   position: absolute;
 }
 
 .last-name {
   font-family: Cuprum, sans-serif;
   font-style: italic;
-  font-size: 200px;
-  left: 554px;
-  top: 93px;
+  font-size: 13.8vw;
+  left: 38.47%;
+  top: 9%;
   position: absolute;
 }
 
 /*Just for letter J*/
 .j-title {
-  font-size: 300px;
-  letter-spacing: 27px;
-  top: 53px;
-  left: 439px;
+  font-size: 20.8vw;
+  letter-spacing: .09em;
+  top: 5.17%;
+  left: 30.5%;
   position: absolute;
 }
 
 /*BUTTON*/
 .enter-button {
+  width: 23.4vw;
   position: absolute;
-  top: 338px;
-  left: 570px;
+  top: 33%;
+  left: 39.58%;
 }
 
 .enter-here-words {
-  width: 216px;
+  width: 64.1%;
   position: absolute;
-  top:50%;
-  left:50%;
+  top:60%;
+  left:48%;
   transform: translate(-50%, -50%);
   opacity: 0.7;
   filter: drop-shadow(-2.4px 3.2px 0 rgba(116, 116, 116, 0.90));
 }
 
+.enter-here-words img {
+  width: 100%;
+  display: block;
+}
+
 .enter-here-arrows {
-  width: 337px;
+  width: 100%;
 }
