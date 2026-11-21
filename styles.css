@@ -8,3 +8,33 @@
   min-height: 100vh;
   background: linear-gradient(238deg, #347DB6 19.39%, #4F8BB2 80.61%);
 }
+
+/* consolidate common rules*/
+.h1 {
+  color: #EFF1FA;
+  text-shadow: -3px 4px 0 #747474;
+}
+
+.portfolio {
+  font-family:"Rum Raisin", sans-serif;
+  font-size: 250px;
+  letter-spacing: 22.5px;
+}
+
+.first-name {
+  font-family: Cuprum, sans-serif;
+  font-size: 40px;
+  font-style: italic;
+}
+
+.last-name {
+  font-family: Cuprum, sans-serif;
+  font-style: italic;
+  font-size: 200px;
+}
+
+/*Just for letter J*/
+.j-title {
+  font-size: 300px;
+  letter-spacing: 27px;
+}
